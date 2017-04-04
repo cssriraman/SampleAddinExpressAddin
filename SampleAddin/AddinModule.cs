@@ -16,6 +16,7 @@ namespace SampleAddin
         public AddinModule()
         {
             Application.EnableVisualStyles();
+            var app = new App();
             InitializeComponent();
             // Please add any initialization code to the AddinInitialize event handler
         }

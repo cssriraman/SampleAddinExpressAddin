@@ -7,7 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        <TextBlock x:Name="textBlock" FontFamily="./Resources/#Maggie" Background="AntiqueWhite" FontWeight="Bold" HorizontalAlignment="Left" Margin="26,39,0,0" TextWrapping="Wrap" Text="Sample Text" VerticalAlignment="Top" Height="19" Width="129"/>
+        <!--FontFamily="./Resources/#Maggie"-->
+        <TextBlock x:Name="textBlock" Style="{StaticResource ResourceKey=FontAwesomeStyle}"  Background="AntiqueWhite" FontWeight="Bold" HorizontalAlignment="Left" Margin="26,39,0,0" TextWrapping="Wrap" Text="Sample Text" VerticalAlignment="Top" Height="19" Width="129"/>
         <Image x:Name="image" Source="./Resources/hog.jpg" HorizontalAlignment="Left" Height="100" Margin="35,120,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </UserControl>
